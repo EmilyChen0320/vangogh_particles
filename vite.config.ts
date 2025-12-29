@@ -31,6 +31,12 @@ export default defineConfig(({ mode }) => {
             start_url: '/',
             icons: [
               {
+                src: 'apple-touch-icon.png',
+                sizes: '180x180',
+                type: 'image/png',
+                purpose: 'any'
+              },
+              {
                 src: 'web-app-manifest-192x192.png',
                 sizes: '192x192',
                 type: 'image/png',
