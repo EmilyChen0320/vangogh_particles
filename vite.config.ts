@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
         react(),
         VitePWA({
           registerType: 'autoUpdate',
-          includeAssets: ['favicon.ico', 'favicon.svg', 'apple-touch-icon.png'],
+          includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
           manifest: {
             id: '/',
             name: 'Van Gogh Live Particles',
@@ -63,7 +63,8 @@ export default defineConfig(({ mode }) => {
             ]
           },
           workbox: {
-            globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
+            globPatterns: ['**/*.{js,css,html,ico,png,woff2}'],
+            globIgnores: ['**/favicon.svg'],
             runtimeCaching: [
               {
                 urlPattern: /^https:\/\/aistudiocdn\.com\/.*/i,
