@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Van Gogh Live Particles",
+  "description": "A real-time webcam particle renderer that mimics Van Gogh's brushstrokes, reacting to music frequency analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
