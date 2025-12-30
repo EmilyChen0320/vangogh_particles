@@ -38,7 +38,7 @@ const Controls: React.FC<ControlsProps> = ({
     return (
       <button
         onClick={() => setIsOpen(true)}
-        className="absolute top-4 right-4 bg-slate-800/80 backdrop-blur-md p-3 rounded-full text-white shadow-lg hover:bg-slate-700 transition-colors z-50 border border-slate-600"
+        className="absolute top-20 right-4 bg-slate-800/80 backdrop-blur-md p-3 rounded-full text-white shadow-lg hover:bg-slate-700 transition-colors z-50 border border-slate-600"
       >
         <Settings size={24} />
       </button>
@@ -46,7 +46,7 @@ const Controls: React.FC<ControlsProps> = ({
   }
 
   return (
-    <div className="absolute top-4 right-4 w-80 bg-slate-900/95 backdrop-blur-xl text-slate-200 rounded-2xl shadow-2xl border border-slate-700/50 flex flex-col max-h-[90vh] z-50 transition-all duration-300">
+    <div className="absolute top-20 right-4 w-80 bg-slate-900/95 backdrop-blur-xl text-slate-200 rounded-2xl shadow-2xl border border-slate-700/50 flex flex-col max-h-[85vh] z-50 transition-all duration-300">
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-slate-700/50 bg-slate-900/50 rounded-t-2xl">
         <div className="flex items-center gap-2">
